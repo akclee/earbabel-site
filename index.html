@@ -35,7 +35,10 @@
   .wave i:nth-child(4){animation-delay:2.4s}.wave i:nth-child(5){animation-delay:1.2s}.wave i:nth-child(6){animation-delay:.4s}
   .hero h1{font-size:clamp(34px,6vw,60px);line-height:1.04;font-weight:800;letter-spacing:-.025em;max-width:16ch}
   .hero p{font-size:clamp(17px,2.4vw,22px);color:#aebdd6;margin-top:20px;max-width:54ch}
-  .pill{display:inline-block;margin-top:26px;border:1px solid rgba(255,255,255,.25);color:#cfe;padding:7px 14px;border-radius:30px;font-size:13px;letter-spacing:.04em}
+  .pill{display:inline-block;border:1px solid rgba(255,255,255,.25);color:#cfe;padding:7px 14px;border-radius:30px;font-size:13px;letter-spacing:.04em}
+  .hero-cta{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-top:28px}
+  .btn-video{display:inline-flex;align-items:center;gap:9px;background:var(--accent);color:#04211c;font-weight:700;padding:12px 22px;border-radius:30px;text-decoration:none;font-size:16px;transition:transform .1s ease}
+  .btn-video:hover{transform:translateY(-1px)}
   /* sections */
   section{padding:72px 0}
   .kick{color:var(--accent);font-weight:800;letter-spacing:.16em;text-transform:uppercase;font-size:13px;margin-bottom:12px}
@@ -87,7 +90,10 @@
     <div class="wave"><i></i><i></i><i></i><i></i><i></i><i></i></div>
     <h1>Learning that fits the life you already have.</h1>
     <p>EarBabel is an AI-powered, multilingual educational audio platform that turns course content into structured lessons you can learn entirely by ear — no screen required.</p>
-    <span class="pill">In development · alcademia LLC</span>
+    <div class="hero-cta">
+      <a class="btn-video" href="https://youtu.be/r1leWf_0BYg" target="_blank" rel="noopener">▶ Watch the 3-minute overview</a>
+      <span class="pill">In development · alcademia LLC</span>
+    </div>
   </div>
 </div>
 
